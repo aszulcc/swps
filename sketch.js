@@ -53,12 +53,12 @@ function preload(){
 
 function draw() {
   
-  if(bg > 0){
-     image(bg1, 0, 0);
-  }else{
-     image(bg2, 0 , 0);
-  }
- 
+  //if(bg > 0){
+    // image(bg1, 0, 0);
+ // }else{
+  //   image(bg2, 0 , 0);
+ // }
+ background(220);
   
   
   for(let i = 0;i < platki.length; i++){
