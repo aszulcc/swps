@@ -2,8 +2,8 @@ let platki = [];
 let pngs = [];
 let lodyga;
 let bg = 1;
-let bg1;
-let bg2;
+//let bg1;
+//let bg2;
 
 function preload(){
   
@@ -45,7 +45,7 @@ function preload(){
    for(let i = 0; i < 6; i++){
      if(platki[i].checkMouseOver()){
        platki[i].animacja = true;
-       bg*= -1;
+       //bg*= -1;
      }
        
    }
