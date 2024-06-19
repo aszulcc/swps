@@ -8,8 +8,8 @@ let bg2;
 function preload(){
   
    lodyga = loadImage('lodyga.png');
-   bg1 = loadImage('bg1.png');
-   bg2 = loadImage('bg2.png');
+   // bg1 = loadImage('bg1.png');
+   // bg2 = loadImage('bg2.png');
   
    for(let i = 0; i<6; i++){
      let path = 'p' + str(i + 1) + '.png'; //ścieżka od p1, p2, p3 etc
