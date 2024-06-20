@@ -88,7 +88,7 @@ function draw() {
  }
   image(lodyga, 60, 60);
   
-  translate(-1920 / 2 + 150, -1080 / 2 + 300);
+  translate(-1920 / 2 + 150, -1080 / 2 + 200);
   
    if (chapter == 0) { //ekran przed kwiatkiem
     background(0);
