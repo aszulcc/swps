@@ -94,7 +94,7 @@ function draw() {
     background(0);
     fill(255);
     textAlign(CENTER);
-    text('level 3 Bargaining',1920/2,1080/2, 300);
+    text('level 3 Bargaining',CENTER,1080/2, 300);
     
   }
   
