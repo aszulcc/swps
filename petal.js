@@ -8,7 +8,7 @@ class Petal{
     this.h = img.height;
     this.animacja = false;
     this.base = this.x;
-    
+    this.randomAngle = random(TWO_PI);
   }
   
   display(){
@@ -24,14 +24,16 @@ class Petal{
     
     if(this.animacja){
       
-      this.x = 20 * sin(frameCount * 0.05) + this.base;
+      this.x = 20 * sin(this.randomAngle + frameCount * 0.05) + this.base;
       this.y = this.y + 2;
     }
   }
   
   checkMouseOver(){
     let  mouseOver;
-    if(mouseX > this.x && mouseX < this.x + this.w && mouseY > this.y && mouseY < this.y + this.h){
+    let tx = 1920 / 2 - 300;
+    let ty = 1080/2 - 300;
+    if(mouseX - tx > this.x && mouseX - tx < this.x + this.w && mouseY - ty > this.y && mouseY - ty < this.y + this.h){
       mouseOver = true;
     }else{
       mouseOver = false;
