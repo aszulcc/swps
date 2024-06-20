@@ -88,12 +88,12 @@ function draw() {
  }
   image(lodyga, 60, 60);
   
-  translate(-1920 / 2 + 300, -1080 / 2 + 300);
+  translate(-1920 / 2 + 150, -1080 / 2 + 150);
   
    if (chapter == 0) { //ekran przed kwiatkiem
     background(0);
     fill(255); 
-    text('level 3 Bargaining', 1920 / 2 - 150,1080/2, 300);
+    text('level 3 Bargaining', 1920 / 2,1080/2, 300);
     
   }
   
