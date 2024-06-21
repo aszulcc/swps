@@ -51,7 +51,7 @@ function setup() {
 function mouseReleased(){
       chapter++; //zmienna doo czarnego ekranu na początku
    for(let i = 0; i < 6; i++){ //animacja dla każdego płatka
-     if(platki[i].checkMouseOver()){
+     if(platki[i].checkMouseOver() && chapter>1){
        platki[i].animacja = true;
        bg*= -1;
        count++;
