@@ -92,7 +92,7 @@ function draw() {
   
    if (chapter == 0) { //ekran przed kwiatkiem
     background(0);
-    fill(255); 
+    fill(249, 220, 92); 
     text('level 3 Bargaining', 1920 / 2, 1080 / 2, 300);
     
   }
